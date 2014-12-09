@@ -5,7 +5,8 @@ var bobcatApp = angular.module('copperBobcat', [
   'hljs',
   'ngTouch',
   'ngMaterial',
-  'datatables'
+  'datatables', 
+  'xeditable'
 ]);
 
 bobcatApp.config(

@@ -9,6 +9,8 @@ module.exports = function (app) {
   app.get('/', questionController.getQuestions);
 
   app.post('/addQuestion',  questionController.addQuestion);
+  app.post('/updateQuestion',  questionController.modifyQuestion);
   app.post('/delete',  questionController.deleteQuestion);
+
 
 };//ensureAuthenticated,
