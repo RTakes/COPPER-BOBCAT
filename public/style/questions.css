@@ -1,0 +1,178 @@
+
+/*-------------------------------------------- END OF RESET --------------------------------------------*/
+
+body {
+    font-size: 16px;
+}
+
+#landing {
+  text-align:center;
+  margin-top: 7.25em;
+}
+
+#landing a{
+ text-decoration: none;
+ color:white;
+}
+
+#landing button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 200;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #03a9f4;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 10px 50px;
+}
+
+#container {
+  height: 80%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#arrow-right {
+    margin-left: 1em;
+}
+
+#arrow-left {
+    margin-right: 1em;
+}
+
+/* From: http://css-tricks.com/snippets/css/fixed-footer/ */
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   /*height:50px;*/
+   width:100%;
+   background:#999;
+}
+
+
+#code {	
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+pre {
+    
+ white-space: pre-wrap;       
+ white-space: -moz-pre-wrap;  
+ white-space: -pre-wrap;      
+ white-space: -o-pre-wrap;    
+ word-wrap: break-word;       
+ margin: 0px;
+}
+
+.hljs {
+    background: none !important;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fontSize {
+	font-size: 1.5em;
+}
+
+.horizontalCenter {
+    width: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answer {
+    font-size: 3em;   
+    text-align: center;
+    margin: 2em;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+    .fontSize {
+        font-size: 1em;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    .fontSize {
+        font-size: 1em;
+    }
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    .fontSize {
+        font-size: 1em;
+    }
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .fontSize {
+        font-size: 2em;
+    }
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .fontSize {
+        font-size: 1em;
+    }
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .fontSize {
+        font-size: 1em;
+    }
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .fontSize {
+        font-size: 2em;
+    }
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    .fontSize {
+        font-size: 2em;
+    }
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@mediaonly screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    .fontSize {
+        font-size: 1em;
+    }
+/* Styles */
+}
