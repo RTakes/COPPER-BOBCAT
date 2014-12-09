@@ -32,5 +32,4 @@ function($stateProvider, $urlRouterProvider) {
         templateUrl: '/admin/admin.html',
         controller: 'AdminController'
       })
-
 });
